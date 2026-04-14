@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Life at Anand International School - Discover our clubs, sports, and arts.">
+    <title>Student Life | Anand International School</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-hero {
+            position: relative;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #070B19, var(--clr-primary));
+            color: var(--clr-white);
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-top: 4rem;
+        }
+        .page-hero h1 { margin-bottom: 1rem; color: var(--clr-white); font-size: 3.5rem;}
+        .card-detailed {
+            background: var(--clr-light);
+            border-radius: var(--br-md);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-sm);
+        }
+        .card-detailed h3 { color: var(--clr-secondary); font-size: 2rem; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.jpeg" alt="Anand International School Logo" class="logo-img">
+                <span class="logo-text">Anand International School</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About Us</a>
+                <a href="academics.html" class="nav-link">Academics</a>
+                <a href="student-life.html" class="nav-link active">Student Life</a>
+                <a href="index.html#admissions" class="nav-link">Admissions</a>
+            </div>
+            <a href="tel:+917046549656" class="btn btn-nav">Contact Us</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay">
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About Us</a>
+            <a href="academics.html">Academics</a>
+            <a href="student-life.html">Student Life</a>
+            <a href="index.html#admissions">Admissions</a>
+            <a href="tel:+917046549656" class="btn btn-primary">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Page Hero -->
+    <header class="page-hero">
+        <div class="container fade-up">
+            <h1>Student Life</h1>
+            <p>Developing well-rounded individuals through sports, arts, and innovation.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-5 mb-5">
+        <div class="card-detailed fade-up">
+            <h3>Athletics</h3>
+            <p>At AIS, we believe a healthy body houses a sharp mind. Our multi-purpose sports complex features state-of-the-art courts for basketball, tennis, swimming, and an extensive cricket ground.</p>
+            <p class="mt-2"><strong>Teams:</strong> Cricket, Football, Basketball, Swimming, Athletics, Table Tennis</p>
+        </div>
+
+        <div class="card-detailed fade-up delay-1" style="background: var(--clr-primary); color: white;">
+            <h3 style="color: var(--clr-accent);">Fine Arts & Music</h3>
+            <p>Creativity brings balance to life. Students can explore various means of self-expression in our arts department, featuring dedicated studios for painting, sculpture, and musical instruments.</p>
+            <p class="mt-2"><strong>Clubs:</strong> Choir, Band, Drama Society, Photography, Visual Arts</p>
+        </div>
+
+        <div class="card-detailed fade-up delay-2">
+            <h3>STEM & Robotics</h3>
+            <p>Preparing for tomorrow means embracing technology today. Our high-tech laboratories and robotics kits provide students hands-on experience in coding, engineering principles, and innovation.</p>
+            <p class="mt-2"><strong>Workshops:</strong> Python Coding, Robotics Club, Science Fair Preparations</p>
+        </div>
+
+        <div class="text-center mt-5 mb-5 fade-up delay-3">
+            <a href="index.html#admissions" class="btn btn-primary">Join the Community</a>
+        </div>
+    </main>
+
+    <!-- Footer & Contact (Map) -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="logo.jpeg" alt="Anand International School Logo" class="logo-img-footer">
+                        <span class="logo-text text-white">Anand International School</span>
+                    </a>
+                    <p class="mt-3">Empowering students to achieve their highest potential through innovative education
+                        and character development.</p>
+                    <div class="social-links mt-4">
+                        <a href="https://www.facebook.com/aischoolmogar/" aria-label="Facebook" target="_blank">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/explore/locations/1679887968689428/anand-international-school/recent/" aria-label="Instagram" target="_blank">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069v-2.162zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://wa.me/917046549656" aria-label="WhatsApp" target="_blank">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M11.42 21.815a10.02 10.02 0 01-5.118-1.4l-.366-.217-3.8.995 1.013-3.705-.238-.378a9.98 9.98 0 01-1.523-5.28C1.388 6.302 5.86 1.83 11.42 1.83c5.56 0 10.032 4.472 10.032 10.031 0 5.56-4.472 10.032-10.032 10.032v-.078zm0-18.3c-4.636 0-8.411 3.775-8.411 8.412 0 1.484.388 2.936 1.124 4.215l.135.234-.64 2.345 2.4-.63.226.134a8.347 8.347 0 004.28 1.168c4.637 0 8.412-3.775 8.412-8.411 0-4.637-3.775-8.411-8.411-8.411zm4.619 11.455c-.253-.127-1.498-.74-1.73-.825-.231-.085-.4-.127-.569.127-.168.254-.654.825-.801.993-.148.169-.296.19-.549.064-.253-.127-1.07-.394-2.038-1.255-.753-.671-1.261-1.5-1.409-1.753-.148-.254-.016-.39.111-.518.114-.114.253-.298.379-.446.126-.149.168-.255.253-.424.084-.169.042-.317-.021-.444-.063-.127-.569-1.373-.779-1.881-.205-.495-.413-.428-.569-.436-.148-.008-.316-.008-.485-.008a.92.92 0 00-.675.317c-.232.254-.886.866-.886 2.112s.907 2.453 1.034 2.622c.126.169 1.787 2.73 4.33 3.826.604.261 1.075.417 1.442.534.606.193 1.157.165 1.593.1.488-.073 1.498-.612 1.708-1.203.211-.591.211-1.097.148-1.204-.063-.106-.231-.169-.484-.296z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="student-life.html">Student Life</a></li>
+                        <li><a href="index.html#admissions">Admissions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>📍 NH-8, Opp. amul chocolate plant, mogar, anand -388001</p>
+                    <p>📞 <a href="tel:+917046549656">+91 70465 49656</a></p>
+                    <p>✉️ <a href="mailto:aischool210@gmail.com">aischool210@gmail.com</a></p>
+                </div>
+
+                <div class="footer-map">
+                    <!-- Google Maps Iframe -->
+                    <iframe
+                        src="https://maps.google.com/maps?q=NH-8,Opp.amul%20chocolate%20plant,mogar,anand%20-388001&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="200" style="border:0; border-radius: 12px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anand International School. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Click-to-Call FAB (Floating Action Button) -->
+    <a href="tel:+917046549656" class="fab-call" aria-label="Call Us Now">
+        <span class="fab-icon">📞</span>
+    </a>
+
+    <!-- WhatsApp FAB -->
+    <a href="https://wa.me/917046549656" class="fab-wa" aria-label="WhatsApp Us" target="_blank">
+        <span class="fab-icon">💬</span>
+    </a>
+
+    <!-- Chatbot UI Overlay -->
+    <div class="chatbot-window" id="chatbot">
+        <div class="chat-header">
+            <div>
+                <h4>AIS Assistant</h4>
+                <p>Online</p>
+            </div>
+            <button class="close-chat" onclick="toggleChat()">×</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                Hi there! Welcome to Anand International School. How can I help you today?
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Ask a question..." onkeypress="handleChat(event)">
+            <button onclick="sendChatMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
